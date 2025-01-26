@@ -4,6 +4,7 @@ import socket from "../utilities/socket";
 const TaskForm = () => {
   const [task, setTask] = useState("");
 
+  // Function to handle form submission
   const handleSubmit = (e) => {
     e.preventDefault();
     if (task.trim()) {

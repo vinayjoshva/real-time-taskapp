@@ -5,6 +5,7 @@ import TaskItem from "./TaskItem";
 const TaskList = () => {
   const [tasks, setTasks] = useState([]);
 
+  // Listen for task updates from the server
   useEffect(() => {
     socket.on("tasks-updated", (updatedTasks) => {
       console.log("Updated tasks from server:", updatedTasks); // Debugging
