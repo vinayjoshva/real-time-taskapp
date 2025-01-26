@@ -1,10 +1,17 @@
-# React + Vite
+# NOTE: The project is deployed for real-time demonstration, please take a look at the link below.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Real-Time Task Collaboration App
+The Real-Time Task Collaboration App is a productivity-focused application designed to help users manage tasks collaboratively in real-time. The app allows users to seamlessly add tasks, mark them as completed, and delete them, ensuring efficient task management and real-time updates across multiple devices or users.
 
-Currently, two official plugins are available:
+# Features
+Add Tasks: Users can add new tasks to a shared task list.
+Mark Tasks as Completed: Tasks can be marked as completed, with visual indicators.
+Delete Tasks: Users can delete tasks from the shared list.
+Real-Time Updates: All task actions are reflected in real-time across all connected users via WebSockets.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# Technology Stack
+Frontend: React with Vite + Tailwind CSS for fast and responsive UI development.
+WebSockets: Socket.IO for real-time communication and updates.
 
-# real-time-taskapp
+# Live Demo Link
+https://real-time-taskapp-git-main-vinay-joshvas-projects.vercel.app/
